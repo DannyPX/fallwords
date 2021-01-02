@@ -1,0 +1,15 @@
+Index: src/main/resources/application.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>spring.datasource.url=jdbc:sqlserver://mssql.fhict.local;database=dbi404906_pts3\r\nspring.datasource.username=dbi404906_pts3\r\nspring.datasource.password=123\r\nspring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver\r\nspring.jpa.show-sql=true\r\nspring.jpa.generate-ddl=true\r\nspring.jpa.hibernate.ddl-auto = update\r\nspring.jpa.database-platform=org.hibernate.dialect.SQLServer2012Dialect\r\nspring.jpa.properties.hibernate.dialect = org.hibernate.dialect.SQLServer2012Dialect\r\n\r\njwt.http.request.header=Authorization\r\njwt.refresh.token.uri=/refresh\r\njwt.inProduction = true\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1252
+===================================================================
+--- src/main/resources/application.properties	(revision a98624249312af32b77b28ee75299efb2f3bcac6)
++++ src/main/resources/application.properties	(date 1607516966352)
+@@ -10,4 +10,4 @@
+ 
+ jwt.http.request.header=Authorization
+ jwt.refresh.token.uri=/refresh
+-jwt.inProduction = true
++jwt.inProduction = false

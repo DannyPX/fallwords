@@ -1,0 +1,6 @@
+projectKey=scrumble_board_api
+serverUrl=http://localhost:9000
+serverVersion=8.5.1.38104
+dashboardUrl=http://localhost:9000/dashboard?id=scrumble_board_api
+ceTaskId=AXWxYbCeJsAFQlHP409v
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXWxYbCeJsAFQlHP409v

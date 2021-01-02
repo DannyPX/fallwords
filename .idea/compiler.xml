@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="websocketShared" />
+        <module name="websocketServer" />
+        <module name="wordFallLogic" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="boardapi" target="11" />
+      <module name="websocketServer" target="11" />
+      <module name="websocketShared" target="14" />
+      <module name="wordFallLogic" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boardapi" options="-parameters" />
+      <module name="websocketServer" options="-parameters" />
+      <module name="websocketShared" options="" />
+      <module name="wordFallLogic" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -2,8 +2,10 @@ package communicatorshared;
 
 public enum WebSocketMessageType {
     Subscribe,
+    SubscribeOwn,
     Unsubscribe,
     StartGame,
     CreateGame,
-    EnterWord
+    EnterWord,
+    EnterWordOwn
 }

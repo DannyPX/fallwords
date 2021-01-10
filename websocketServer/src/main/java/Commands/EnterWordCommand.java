@@ -3,12 +3,12 @@ package Commands;
 public class EnterWordCommand {
     private final String gameCode;
     private final String word;
-    private final String player;
+    private final String user;
 
-    public EnterWordCommand(String gameCode, String word, String player) {
+    public EnterWordCommand(String gameCode, String word, String user) {
         this.gameCode = gameCode;
         this.word = word;
-        this.player = player;
+        this.user = user;
     }
 
     public String getGameCode() {
@@ -19,7 +19,7 @@ public class EnterWordCommand {
         return word;
     }
 
-    public String getPlayer() {
-        return player;
+    public String getUser() {
+        return user;
     }
 }

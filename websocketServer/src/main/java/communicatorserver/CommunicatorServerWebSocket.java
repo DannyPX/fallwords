@@ -21,14 +21,16 @@ import java.util.stream.Collectors;
 @ServerEndpoint(value = "/communicator/")
 public class CommunicatorServerWebSocket {
     @SuppressWarnings("MismatchedQueryAndUpdateOfCollection")
-    public static final List<Session> sessions = new ArrayList<>();
-    public static final Map<String, List<Session>> games = new HashMap<>();
+    public static List<Session> sessions;
+    public static Map<String, List<Session>> games;
     public final Gson gson;
-    public final GameHub gameHub;
+    public static GameHub gameHub = null;
 
     public CommunicatorServerWebSocket() {
         this.gson = new Gson();
-        this.gameHub = new GameHub();
+        gameHub = new GameHub();
+        games = new HashMap<>();
+        sessions = new ArrayList<>();
     }
 
     @OnOpen
@@ -82,12 +84,15 @@ public class CommunicatorServerWebSocket {
             case StartGame:
                 StartGameCommand startGameCommand = gson.fromJson(message.getContent(), StartGameCommand.class);
                 handleStartGame(startGameCommand);
+                break;
             case CreateGame:
                 CreateGameCommand createGameCommand = gson.fromJson(message.getContent(), CreateGameCommand.class);
                 handleCreateGame(createGameCommand, session);
+                break;
             case EnterWord:
                 EnterWordCommand enterWordCommand = gson.fromJson(message.getContent(), EnterWordCommand.class);
                 handleEnterWord(enterWordCommand, session);
+                break;
         }
     }
 
@@ -104,7 +109,7 @@ public class CommunicatorServerWebSocket {
             System.out.println(e.getMessage());
         }
 
-        SubscribeResponse response = new SubscribeResponse(command);
+        SubscribeResponse response = new SubscribeResponse(command.getGameCode(), gson.toJson(gameHub.getGames().stream().filter(o -> o.getGameCode().equals(gameCode)).findFirst().get().getPlayers().stream().filter(o -> o.getName().equals(command.getUser())).findFirst().get()));
         String json;
         try {
             WebSocketMessage message = new WebSocketMessage(WebSocketMessageType.Subscribe, gson.toJson(response));
@@ -118,6 +123,10 @@ public class CommunicatorServerWebSocket {
 
         createIfNotExist(command.getGameCode());
         games.get(command.getGameCode()).add(session);
+        session.getAsyncRemote().sendText(gson.toJson(new WebSocketMessage(WebSocketMessageType.SubscribeOwn, gson.toJson(
+                                        new SubscribeOwnResponse(command,
+                                                gson.toJson(gameHub.getGames().stream()
+                                                        .filter(o -> o.getGameCode().equals(gameCode)).findFirst().get().getPlayers()))))));
         sendToOthers(command.getGameCode(), json, session);
     }
 
@@ -139,7 +148,7 @@ public class CommunicatorServerWebSocket {
         UnSubscribeResponse response = new UnSubscribeResponse(command);
         String json;
         try {
-            WebSocketMessage message = new WebSocketMessage(WebSocketMessageType.Subscribe, gson.toJson(response));
+            WebSocketMessage message = new WebSocketMessage(WebSocketMessageType.Unsubscribe, gson.toJson(response));
             json = gson.toJson(message);
 
         }
@@ -169,7 +178,9 @@ public class CommunicatorServerWebSocket {
             return;
         }
 
-        response = new StartGameResponse(gameCode);
+        response = new StartGameResponse(gameCode, gson.toJson(gameHub.getGames().stream().filter(o -> o.getGameCode().equals(gameCode))
+            .findFirst().get().getGameWords())
+        );
         String json;
         try {
             WebSocketMessage message = new WebSocketMessage(WebSocketMessageType.StartGame, gson.toJson(response));
@@ -190,11 +201,13 @@ public class CommunicatorServerWebSocket {
         String gameCode = null;
         try {
             gameCode = gameHub.createGame();
+
         } catch (Exception e) {
             System.out.println(e.getMessage());
             return;
         } finally {
             response = new CreateGameResponse(gameCode);
+            System.out.println(gameCode);
         }
 
         String json;
@@ -219,19 +232,20 @@ public class CommunicatorServerWebSocket {
         try {
             newWord = gameHub.getGames().stream()
                     .filter(o -> o.getGameCode().equals(gameCode))
-                    .findFirst().get().enterWord(command.getPlayer(), command.getWord());
+                    .findFirst().get().enterWord(command.getUser(), command.getWord());
         }
         catch (Exception e) {
             System.out.println(e.getMessage());
             return;
         }
         finally {
-            responseOwn = new EnterWordOwnResponse(gameCode, newWord, newWord != null);
+            responseOwn = new EnterWordOwnResponse(gameCode, newWord, newWord != null, command.getWord(), gson.toJson(gameHub.getGames().stream()
+                    .filter(o -> o.getGameCode().equals(gameCode)).findFirst().get().getPlayers()));
         }
 
         String jsonOwn;
         try {
-            WebSocketMessage messageOwn = new WebSocketMessage(WebSocketMessageType.CreateGame, gson.toJson(responseOwn));
+            WebSocketMessage messageOwn = new WebSocketMessage(WebSocketMessageType.EnterWordOwn, gson.toJson(responseOwn));
             jsonOwn = gson.toJson(messageOwn);
         }
         catch (JsonSyntaxException exception) {
@@ -240,11 +254,13 @@ public class CommunicatorServerWebSocket {
         }
 
         session.getAsyncRemote().sendText(jsonOwn);
+
         if(newWord != null) {
-            response = new EnterWordResponse(gameCode, newWord);
+            response = new EnterWordResponse(gameCode, newWord, command.getWord(), gson.toJson(gameHub.getGames().stream()
+                    .filter(o -> o.getGameCode().equals(gameCode)).findFirst().get().getPlayers()));
             String json;
             try {
-                WebSocketMessage message = new WebSocketMessage(WebSocketMessageType.CreateGame, gson.toJson(response));
+                WebSocketMessage message = new WebSocketMessage(WebSocketMessageType.EnterWord, gson.toJson(response));
                 json = gson.toJson(message);
             }
             catch (JsonSyntaxException exception) {

@@ -9,7 +9,8 @@ public interface IGamePlayer {
     boolean startGame();
     boolean addPlayer(String player);
     boolean removePlayer(String player);
+    List<Word> getGameWords();
     String enterWord(String player, String word);
-    List<String> getPlayers();
+    List<Player> getPlayers();
     String getGameCode();
 }

@@ -6,49 +6,70 @@ import Interfaces.IGamePlayer;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.UUID;
+import java.util.stream.Collectors;
+
+import com.github.dhiraj072.randomwordgenerator.RandomWordGenerator;
 
 public class Game implements IGamePlayer {
     private final String gameCode;
-    private List<Word> dictionary;
     private List<Player> players;
     private List<Word> gameWords;
 
     public Game() {
         gameCode = generateType1UUID().toString();
-        //TODO Dictionary
+        players = new ArrayList<>();
+        gameWords = new ArrayList<>();
     }
 
     @Override
     public boolean startGame() {
-        return false;
+        for (int i = 0; i < 10; i++) {
+            gameWords.add(new Word(RandomWordGenerator.getRandomWord()));
+        }
+        return true;
     }
 
     @Override
     public boolean addPlayer(String player) {
-        return false;
+        players.add(new Player(player));
+        return true;
     }
 
     @Override
     public boolean removePlayer(String player) {
-        return false;
+        players.remove(new Player(player));
+        return true;
     }
 
     @Override
     public String enterWord(String player, String word) {
-        return null;
+        String newWord = null;
+        if(gameWords.stream().anyMatch(o -> o.getWord().equals(word))) {
+            players.stream().filter(o -> o.getName().equals(player)).findFirst().get().addPoints(word.length());
+            gameWords.removeIf(o -> o.getWord().equals(word));
+            newWord = RandomWordGenerator.getRandomWord();
+            gameWords.add(new Word(newWord));
+        }
+        return newWord;
     }
 
     @Override
-    public List<String> getPlayers() {
-        return null;
+    public List<Player> getPlayers() {
+        return players;
     }
 
     @Override
     public String getGameCode() {
         return gameCode;
+    }
+
+    @Override
+    public List<Word> getGameWords() {
+        return gameWords;
     }
 
     private static long get64LeastSignificantBitsForVersion1() {

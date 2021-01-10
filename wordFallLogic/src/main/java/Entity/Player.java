@@ -3,7 +3,12 @@ package Entity;
 public class Player {
     private int id;
     private int points;
-    private String name;
+    private final String name;
+
+    public Player(String name) {
+        this.name = name;
+        this.points = 0;
+    }
 
     public int getId() {
         return id;
@@ -18,7 +23,7 @@ public class Player {
     }
 
     public void addPoints(int points) {
-        this.points =+ points;
+        this.points = this.points + points;
     }
 }
 

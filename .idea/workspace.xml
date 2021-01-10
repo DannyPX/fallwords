@@ -14,314 +14,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25b1dca9-8c3c-4fa8-b8e7-3ad5e38abab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_7_4_1_jre8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_4_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_2_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_websocket_javax_websocket_api_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_websocket_javax_websocket_client_api_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_annotations_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_jndi_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_plus_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_35_v20201120.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_client_impl_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_server_impl_9_4_15_v20190215.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_31_v20200723.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_21_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_3_72.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_72.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_7_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_7_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_7_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_hateoas_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_1_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2020_1_25_PM_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2020_1_25_PM_[Default_Changelist]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2020_1_25_PM__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2020_1_32_PM_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2020_1_32_PM_[Default_Changelist]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2020_1_32_PM__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boardapi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scrumble/userapi/FWapiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scrumble/userapi/Logic/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scrumble/userapi/Models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scrumble/userapi/Repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scrumble/userapi/Resources/CreateUserResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scrumble/userapi/RestControllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scrumble/userapi/Swagger/SwaggerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/CreateStoryCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/CreateTaskCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/DeleteStoryCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/DeleteTaskCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/MoveTaskCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/SubscribeCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Commands/UnSubscribeCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Responses/CreateStoryResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Responses/CreateTaskResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Responses/DeleteStoryResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Responses/DeleteTaskResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Responses/MoveTaskResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/BoardapiApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Connections/ApiClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Logic/BoardListService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Logic/BoardService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Logic/BurnDownChartLogic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Logic/LabelLogic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Logic/StoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Logic/TaskService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Logic/UserLogic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Logic/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Models/Board$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Models/Board.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Models/BoardList$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Models/BoardList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Models/BurnDownChart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Models/Label.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Models/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Models/Story$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Models/Story.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Models/Task$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Models/Task.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Models/User$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Models/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Repositories/BoardRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Repositories/IBoardListRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Repositories/IBoardRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Repositories/IStoryRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Repositories/ITaskRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Repositories/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Resources/CreateBoardListResource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Resources/CreateBoardResource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Resources/CreateStoryResource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Resources/CreateTaskResource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Resources/CreateUserResource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Resources/UpdateBoardListResource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Resources/UpdateTaskResource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/RestControllers/BoardController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/RestControllers/BoardListController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/RestControllers/StoryController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/RestControllers/TaskController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/RestControllers/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Security/JWTWebSecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Security/JwtTokenAuthorizationOncePerRequestFilter$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Security/JwtTokenAuthorizationOncePerRequestFilter$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Security/JwtTokenAuthorizationOncePerRequestFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Security/JwtTokenUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Security/JwtUnAuthorizedResponseAuthenticationEntryPoint.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/scrumble/boardapi/Swagger/SwaggerConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/communicatorserver/CommunicatorServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/communicatorserver/CommunicatorServerWebSocket$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/communicatorserver/CommunicatorServerWebSocket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/communicatorshared/CommunicatorWebSocketMessageOperation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/communicatorshared/WebSocketMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/communicatorshared/WebSocketMessageType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/sonar/.sonar_lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/sonar/report-task.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/scrumble/boardapi/Logic/BoardListServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/scrumble/boardapi/Logic/BoardServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/scrumble/boardapi/Logic/LabelLogicTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/scrumble/boardapi/Logic/StoryServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/scrumble/boardapi/Logic/TaskServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/scrumble/boardapi/Logic/UserLogicTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/src/main/java/Commands/CreateGameCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/src/main/java/Commands/EnterWordCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/src/main/java/Commands/StartGameCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/src/main/java/Commands/SubscribeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/src/main/java/Commands/UnSubscribeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/src/main/java/Responses/CreateGameResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/src/main/java/Responses/EnterWordOwnResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/src/main/java/Responses/EnterWordResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/src/main/java/Responses/StartGameResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/src/main/java/Responses/SubscribeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/src/main/java/Responses/UnSubscribeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/src/main/java/communicatorserver/CommunicatorServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/src/main/java/communicatorserver/CommunicatorServerWebSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/src/main/java/communicatorshared/WebSocketMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/src/main/java/communicatorshared/WebSocketMessageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/Commands/CreateGameCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/Commands/EnterWordCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/Commands/StartGameCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/Commands/SubscribeCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/Commands/UnSubscribeCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/Responses/CreateGameResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/Responses/EnterWordOwnResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/Responses/EnterWordResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/Responses/StartGameResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/Responses/SubscribeResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/Responses/UnSubscribeResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/com/scrumble/userapi/FWapiApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/com/scrumble/userapi/Logic/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/com/scrumble/userapi/Models/User$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/com/scrumble/userapi/Models/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/com/scrumble/userapi/Repositories/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/com/scrumble/userapi/Resources/CreateUserResource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/com/scrumble/userapi/RestControllers/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/com/scrumble/userapi/Swagger/SwaggerConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/communicatorserver/CommunicatorServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/communicatorserver/CommunicatorServerWebSocket$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/communicatorserver/CommunicatorServerWebSocket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/communicatorshared/WebSocketMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/target/classes/communicatorshared/WebSocketMessageType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketServer/websocketServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketShared/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketShared/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketShared/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketShared/target/classes/communicatorshared/CommunicatorWebSocketMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketShared/target/classes/communicatorshared/CommunicatorWebSocketMessageOperation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketShared/target/classes/module-info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/websocketShared/websocketShared.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordFallLogic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordFallLogic/src/main/java/Entity/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordFallLogic/src/main/java/Entity/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordFallLogic/src/main/java/Factory/GameFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordFallLogic/src/main/java/Game/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordFallLogic/src/main/java/GameHub/GameHub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordFallLogic/src/main/java/Interfaces/IGameInner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordFallLogic/src/main/java/Interfaces/IGamePlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordFallLogic/target/classes/Entity/Player.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordFallLogic/target/classes/Entity/Word.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordFallLogic/target/classes/Factory/GameFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordFallLogic/target/classes/Game/Game.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordFallLogic/target/classes/GameHub/GameHub.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordFallLogic/target/classes/Interfaces/IGameInner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordFallLogic/target/classes/Interfaces/IGamePlayer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordFallLogic/wordFallLogic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/websocketServer/src/main/java/Responses/SubscribeOwnResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocketServer/src/main/java/Commands/EnterWordCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocketServer/src/main/java/Commands/EnterWordCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocketServer/src/main/java/Responses/EnterWordOwnResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocketServer/src/main/java/Responses/EnterWordOwnResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocketServer/src/main/java/Responses/EnterWordResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocketServer/src/main/java/Responses/EnterWordResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocketServer/src/main/java/Responses/StartGameResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocketServer/src/main/java/Responses/StartGameResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocketServer/src/main/java/communicatorserver/CommunicatorServerWebSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocketServer/src/main/java/communicatorserver/CommunicatorServerWebSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocketServer/src/main/java/communicatorshared/WebSocketMessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/websocketServer/src/main/java/communicatorshared/WebSocketMessageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocketServer/target/classes/Commands/EnterWordCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/websocketServer/target/classes/Commands/EnterWordCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocketServer/target/classes/Responses/EnterWordOwnResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/websocketServer/target/classes/Responses/EnterWordOwnResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocketServer/target/classes/Responses/EnterWordResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/websocketServer/target/classes/Responses/EnterWordResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocketServer/target/classes/communicatorserver/CommunicatorServerWebSocket$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/websocketServer/target/classes/communicatorserver/CommunicatorServerWebSocket$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocketServer/target/classes/communicatorserver/CommunicatorServerWebSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/websocketServer/target/classes/communicatorserver/CommunicatorServerWebSocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocketServer/target/classes/communicatorshared/WebSocketMessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/websocketServer/target/classes/communicatorshared/WebSocketMessageType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/websocketServer/websocketServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/websocketServer/websocketServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordFallLogic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wordFallLogic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordFallLogic/src/main/java/Entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordFallLogic/src/main/java/Entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordFallLogic/src/main/java/Game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordFallLogic/src/main/java/Game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordFallLogic/src/main/java/GameHub/GameHub.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordFallLogic/src/main/java/GameHub/GameHub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordFallLogic/src/main/java/Interfaces/IGamePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/wordFallLogic/src/main/java/Interfaces/IGamePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordFallLogic/target/classes/Entity/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/wordFallLogic/target/classes/Entity/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordFallLogic/target/classes/Game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/wordFallLogic/target/classes/Game/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordFallLogic/target/classes/GameHub/GameHub.class" beforeDir="false" afterPath="$PROJECT_DIR$/wordFallLogic/target/classes/GameHub/GameHub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordFallLogic/wordFallLogic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wordFallLogic/wordFallLogic.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,7 +76,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/wordFallLogic/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PTS/pts3-s34_scrumbleboardapi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -436,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607523859967</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Init">
+      <created>1609593828924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609593828924</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -465,7 +188,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bug fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixes" />
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2360" y="114" key="#Project_Structure" timestamp="1609593586391">
@@ -477,77 +201,80 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1609249303221" />
-    <state x="2685" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1609506422141">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1610204439479">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1610204439479" />
     <state x="2685" y="223" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1609506422141" />
     <state x="2662" y="408" width="435" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1609506035958">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="742" y="408" width="435" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1609337077596" />
     <state x="2662" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1609506035958" />
-    <state x="433" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609332565992">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2353" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609749442357">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="433" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1609332565992" />
-    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609332041436">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2353" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1609749442357" />
+    <state x="2610" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610207265042">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1609332041436" />
+    <state x="2610" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610207265042" />
     <state width="432" height="466" key="DebuggerActiveHint" timestamp="1607436662053">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="432" height="466" key="DebuggerActiveHint/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607436662053" />
-    <state x="2667" y="276" key="FileChooserDialogImpl" timestamp="1609593728085">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="747" y="276" key="FileChooserDialogImpl" timestamp="1610007027945">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="747" y="276" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1607588462090" />
-    <state x="747" y="276" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1609337198949" />
+    <state x="747" y="276" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1610007027945" />
     <state x="2667" y="276" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1609593728085" />
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom" timestamp="1609593617604">
+    <state width="1877" height="376" key="GridCell.Tab.0.bottom" timestamp="1610290577703">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1608021375341" />
     <state width="1877" height="292" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1609338518193" />
-    <state width="1877" height="292" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1609593617604" />
-    <state width="1877" height="292" key="GridCell.Tab.0.center" timestamp="1609593617604">
+    <state width="1877" height="376" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610290577703" />
+    <state width="1877" height="376" key="GridCell.Tab.0.center" timestamp="1610290577703">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1608021375341" />
     <state width="1877" height="292" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1609338518192" />
-    <state width="1877" height="292" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1609593617604" />
-    <state width="1877" height="292" key="GridCell.Tab.0.left" timestamp="1609593617604">
+    <state width="1877" height="376" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610290577703" />
+    <state width="1877" height="376" key="GridCell.Tab.0.left" timestamp="1610290577703">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1608021375341" />
     <state width="1877" height="292" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1609338518192" />
-    <state width="1877" height="292" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1609593617604" />
-    <state width="1877" height="292" key="GridCell.Tab.0.right" timestamp="1609593617604">
+    <state width="1877" height="376" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610290577703" />
+    <state width="1877" height="376" key="GridCell.Tab.0.right" timestamp="1610290577703">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1608021375341" />
     <state width="1877" height="292" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1609338518193" />
-    <state width="1877" height="292" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1609593617604" />
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1609423177178">
+    <state width="1877" height="376" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610290577703" />
+    <state width="1877" height="376" key="GridCell.Tab.1.bottom" timestamp="1610290577704">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="363" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607440430521" />
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1609423177178" />
-    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1609423177178">
+    <state width="1877" height="376" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610290577704" />
+    <state width="1877" height="376" key="GridCell.Tab.1.center" timestamp="1610290577704">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="363" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607440430521" />
-    <state width="1877" height="363" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1609423177178" />
-    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1609423177178">
+    <state width="1877" height="376" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610290577704" />
+    <state width="1877" height="376" key="GridCell.Tab.1.left" timestamp="1610290577703">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="363" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607440430521" />
-    <state width="1877" height="363" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1609423177178" />
-    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1609423177178">
+    <state width="1877" height="376" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610290577703" />
+    <state width="1877" height="376" key="GridCell.Tab.1.right" timestamp="1610290577704">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="363" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1607440430521" />
-    <state width="1877" height="363" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1609423177178" />
+    <state width="1877" height="376" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1610290577704" />
     <state x="2498" y="270" key="Maven.ArtifactSearchDialog" timestamp="1609419341939">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -582,9 +309,27 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2458" y="200" key="new project wizard/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1609411697621" />
+    <state x="755" y="287" key="refactoring.ChangeSignatureDialog" timestamp="1610204445713">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="755" y="287" key="refactoring.ChangeSignatureDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1610204445713" />
     <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1609417957135">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2543" y="235" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1609417957135" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/websocketServer/src/main/java/communicatorserver/CommunicatorServerWebSocket.java</url>
+          <line>163</line>
+          <properties class="communicatorserver.CommunicatorServerWebSocket" method="handleStartGame">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

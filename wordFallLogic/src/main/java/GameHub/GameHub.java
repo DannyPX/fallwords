@@ -3,10 +3,15 @@ package GameHub;
 import Factory.GameFactory;
 import Interfaces.IGamePlayer;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class GameHub {
     List<IGamePlayer> games;
+
+    public GameHub() {
+        games = new ArrayList<>();
+    }
 
     public String createGame() {
         IGamePlayer game = GameFactory.createGame();

@@ -7,5 +7,7 @@ public enum WebSocketMessageType {
     StartGame,
     CreateGame,
     EnterWord,
-    EnterWordOwn
+    EnterWordOwn,
+    WinCondition,
+    UnsubscribeOwn
 }

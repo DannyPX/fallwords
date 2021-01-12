@@ -13,4 +13,6 @@ public interface IGamePlayer {
     String enterWord(String player, String word);
     List<Player> getPlayers();
     String getGameCode();
+    boolean winCondition();
+    Player topPlayer();
 }

@@ -102,8 +102,9 @@ public class CommunicatorServerWebSocket {
         }
 
         String gameCode = command.getGameCode();
+        boolean uniqueName = false;
         try {
-            gameHub.getGames().stream().filter(o -> o.getGameCode().equals(gameCode)).findFirst().get().addPlayer(command.getUser());
+            uniqueName = gameHub.getGames().stream().filter(o -> o.getGameCode().equals(gameCode)).findFirst().get().addPlayer(command.getUser());
         }
         catch (Exception e) {
             System.out.println(e.getMessage());
@@ -122,12 +123,14 @@ public class CommunicatorServerWebSocket {
         }
 
         createIfNotExist(command.getGameCode());
-        games.get(command.getGameCode()).add(session);
-        session.getAsyncRemote().sendText(gson.toJson(new WebSocketMessage(WebSocketMessageType.SubscribeOwn, gson.toJson(
-                                        new SubscribeOwnResponse(command,
-                                                gson.toJson(gameHub.getGames().stream()
-                                                        .filter(o -> o.getGameCode().equals(gameCode)).findFirst().get().getPlayers()))))));
-        sendToOthers(command.getGameCode(), json, session);
+        if(uniqueName) {
+            games.get(command.getGameCode()).add(session);
+            session.getAsyncRemote().sendText(gson.toJson(new WebSocketMessage(WebSocketMessageType.SubscribeOwn, gson.toJson(
+                    new SubscribeOwnResponse(command,
+                            gson.toJson(gameHub.getGames().stream()
+                                    .filter(o -> o.getGameCode().equals(gameCode)).findFirst().get().getPlayers()))))));
+            sendToOthers(command.getGameCode(), json, session);
+        }
     }
 
     private void handleUnSubscribe(UnSubscribeCommand command, Session session) {
@@ -158,6 +161,7 @@ public class CommunicatorServerWebSocket {
         }
 
         games.get(command.getGameCode()).remove(session);
+        session.getAsyncRemote().sendText(gson.toJson(new WebSocketMessage(WebSocketMessageType.UnsubscribeOwn, gson.toJson("{}"))));
         sendToOthers(command.getGameCode(), json, session);
     }
 
@@ -253,21 +257,39 @@ public class CommunicatorServerWebSocket {
             return;
         }
 
-        session.getAsyncRemote().sendText(jsonOwn);
+        if(gameHub.getGames().stream().filter(o -> o.getGameCode().equals(gameCode)).findFirst().get().winCondition()) {
+            WinConditionResponse winConditionResponse = new WinConditionResponse(gameHub.getGames().stream().filter(o -> o.getGameCode().equals(gameCode)).findFirst().get().winCondition(), gson.toJson(gameHub.getGames().stream().filter(o -> o.getGameCode().equals(gameCode)).findFirst().get().topPlayer()), gameCode);
 
-        if(newWord != null) {
-            response = new EnterWordResponse(gameCode, newWord, command.getWord(), gson.toJson(gameHub.getGames().stream()
-                    .filter(o -> o.getGameCode().equals(gameCode)).findFirst().get().getPlayers()));
             String json;
             try {
-                WebSocketMessage message = new WebSocketMessage(WebSocketMessageType.EnterWord, gson.toJson(response));
+                WebSocketMessage message = new WebSocketMessage(WebSocketMessageType.WinCondition, gson.toJson(winConditionResponse));
                 json = gson.toJson(message);
             }
             catch (JsonSyntaxException exception) {
                 exception.printStackTrace();
                 return;
             }
-            sendToOthers(command.getGameCode(), json, session);
+
+            for (Session sess1 : games.get(gameCode)) {
+                sess1.getAsyncRemote().sendText(json);
+            }
+        } else {
+            session.getAsyncRemote().sendText(jsonOwn);
+
+            if(newWord != null) {
+                response = new EnterWordResponse(gameCode, newWord, command.getWord(), gson.toJson(gameHub.getGames().stream()
+                        .filter(o -> o.getGameCode().equals(gameCode)).findFirst().get().getPlayers()));
+                String json;
+                try {
+                    WebSocketMessage message = new WebSocketMessage(WebSocketMessageType.EnterWord, gson.toJson(response));
+                    json = gson.toJson(message);
+                }
+                catch (JsonSyntaxException exception) {
+                    exception.printStackTrace();
+                    return;
+                }
+                sendToOthers(command.getGameCode(), json, session);
+            }
         }
     }
 

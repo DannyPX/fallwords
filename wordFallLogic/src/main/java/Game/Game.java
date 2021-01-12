@@ -35,6 +35,9 @@ public class Game implements IGamePlayer {
 
     @Override
     public boolean addPlayer(String player) {
+        if(players.stream().anyMatch(o -> o.getName().equals(player))) {
+            return false;
+        }
         players.add(new Player(player));
         return true;
     }
@@ -65,6 +68,16 @@ public class Game implements IGamePlayer {
     @Override
     public String getGameCode() {
         return gameCode;
+    }
+
+    @Override
+    public boolean winCondition() {
+        return players.stream().anyMatch(o -> o.getPoints() >= 50);
+    }
+
+    @Override
+    public Player topPlayer() {
+        return players.stream().filter(o -> o.getPoints() >= 50).findFirst().get();
     }
 
     @Override

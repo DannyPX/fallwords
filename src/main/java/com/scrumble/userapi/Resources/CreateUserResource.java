@@ -2,7 +2,8 @@ package com.scrumble.userapi.Resources;
 
 public class CreateUserResource {
     private String name;
-    private String description;
+    private int points;
+    private String password;
 
     public String getName() {
         return name;
@@ -12,11 +13,19 @@ public class CreateUserResource {
         this.name = name;
     }
 
-    public String getDescription() {
-        return description;
+    public int getPoints() {
+        return points;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setPoints(int points) {
+        this.points = points;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

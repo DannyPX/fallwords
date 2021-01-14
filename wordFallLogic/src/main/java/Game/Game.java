@@ -72,12 +72,12 @@ public class Game implements IGamePlayer {
 
     @Override
     public boolean winCondition() {
-        return players.stream().anyMatch(o -> o.getPoints() >= 50);
+        return players.stream().anyMatch(o -> o.getPoints() >= 100);
     }
 
     @Override
     public Player topPlayer() {
-        return players.stream().filter(o -> o.getPoints() >= 50).findFirst().get();
+        return players.stream().filter(o -> o.getPoints() >= 100).findFirst().get();
     }
 
     @Override

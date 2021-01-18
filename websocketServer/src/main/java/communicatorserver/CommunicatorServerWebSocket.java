@@ -134,7 +134,7 @@ public class CommunicatorServerWebSocket {
     }
 
     private void handleUnSubscribe(UnSubscribeCommand command, Session session) {
-        if (!boardExists(command.getGameCode())) {
+        if (!gameExist(command.getGameCode())) {
             return;
         }
 
@@ -166,7 +166,7 @@ public class CommunicatorServerWebSocket {
     }
 
     private void handleStartGame(StartGameCommand command) {
-        if (!boardExists(command.getGameCode())) {
+        if (!gameExist(command.getGameCode())) {
             return;
         }
 
@@ -307,7 +307,7 @@ public class CommunicatorServerWebSocket {
         }
     }
 
-    private boolean boardExists(String id) {
+    private boolean gameExist(String id) {
         return games.containsKey(id);
     }
 
